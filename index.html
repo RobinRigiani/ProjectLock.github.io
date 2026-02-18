@@ -68,7 +68,15 @@
     <p>&copy; 2025 Project Lock. All rights reserved.</p>
 </footer>
 
-<script async src="https://www.instagram.com/embed.js"></script>
+<script async src="//www.instagram.com/embed.js"></script>
+<script>
+  window.addEventListener("load", function() {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    }
+  });
+</script>
+</body>
 
 </body>
 </html>
